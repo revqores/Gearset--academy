@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Assigned__c</fullName>
+    <defaultValue>DATETIMEVALUE(&quot;1900-11-15 12:00:00&quot;)</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Last Assigned</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

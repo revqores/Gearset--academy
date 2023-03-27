@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Integration Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Xero</fullName>
+                <default>false</default>
+                <label>New Xero</label>
+            </value>
+            <value>
+                <fullName>Existing Xero</fullName>
+                <default>false</default>
+                <label>Existing Xero</label>
+            </value>
+            <value>
+                <fullName>Live Bank Feed</fullName>
+                <default>false</default>
+                <label>Live Bank Feed</label>
+            </value>
+            <value>
+                <fullName>Xero Setup</fullName>
+                <default>false</default>
+                <label>Xero Setup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

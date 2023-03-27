@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_Rejected_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Status, &#39;Disqualified&#39;),
+  ISBLANK(TEXT( Rejected_Reason__c )) 
+)</errorConditionFormula>
+    <errorMessage>Please populate the &#39;Rejected Reason&#39; field&#39;</errorMessage>
+</ValidationRule>

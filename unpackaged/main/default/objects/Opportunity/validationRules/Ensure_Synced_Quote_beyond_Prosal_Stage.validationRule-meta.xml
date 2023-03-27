@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_Synced_Quote_beyond_Prosal_Stage</fullName>
+    <active>false</active>
+    <description>A synced Quote is required before an Opportunity can move beyond Proposal Sent sales stage. 
+Does not apply to Closed Lost.</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(StageName , &#39;Contract Sent&#39;),
+ISPICKVAL(StageName , &#39;Closed Won&#39;)),
+ISBLANK(SyncedQuote.Id),
+CreatedDate &gt;= DATETIMEVALUE(&quot;2022-09-20 12:00:00&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Sync a Quote before moving the opportunity past the Proposal Sent sales stage.</errorMessage>
+</ValidationRule>

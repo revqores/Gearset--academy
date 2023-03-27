@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Domain__c</fullName>
+    <description>Company domain extracted from Email</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Company domain extracted from Email</inlineHelpText>
+    <label>Company Domain</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

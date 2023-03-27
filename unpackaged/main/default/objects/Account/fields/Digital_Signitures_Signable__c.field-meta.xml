@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Signitures_Signable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If the account used Digital Signatures for the previous month from the &#39;Sync Date&#39;</description>
+    <externalId>false</externalId>
+    <label>Digital Signitures (Signable)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

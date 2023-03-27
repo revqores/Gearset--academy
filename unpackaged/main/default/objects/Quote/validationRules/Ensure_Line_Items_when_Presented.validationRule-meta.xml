@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_Line_Items_when_Presented</fullName>
+    <active>true</active>
+    <description>Quote Line Items should be added prior to Presented status</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status),
+ISPICKVAL( Status , &#39;Presented&#39;),
+LineItemCount = 0,
+CreatedDate &gt;= DATETIMEVALUE(&quot;2022-09-20 12:00:00&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Please add quote line items. When Quote is moved to Presented it is automatically synced with the Opportunity.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ordered_Products__c</fullName>
+    <description>Contains the products from Closed Won Opportunities</description>
+    <externalId>false</externalId>
+    <label>Ordered Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard Subscription</fullName>
+                <default>false</default>
+                <label>Standard Subscription</label>
+            </value>
+            <value>
+                <fullName>Professional Subscription</fullName>
+                <default>false</default>
+                <label>Professional Subscription</label>
+            </value>
+            <value>
+                <fullName>Professional Subscription Additional Account</fullName>
+                <default>false</default>
+                <label>Professional Subscription Additional Account</label>
+            </value>
+            <value>
+                <fullName>Enterprise Subscription</fullName>
+                <default>false</default>
+                <label>Enterprise Subscription</label>
+            </value>
+            <value>
+                <fullName>Enterprise Subscription Additional Account</fullName>
+                <default>false</default>
+                <label>Enterprise Subscription Additional Account</label>
+            </value>
+            <value>
+                <fullName>Tilt Essentials Subscription</fullName>
+                <default>false</default>
+                <label>Tilt Essentials Subscription</label>
+            </value>
+            <value>
+                <fullName>Bespoke Subscription</fullName>
+                <default>false</default>
+                <label>Bespoke Subscription</label>
+            </value>
+            <value>
+                <fullName>Platinum Property Partners Subscription (Professional)</fullName>
+                <default>false</default>
+                <label>Platinum Property Partners Subscription (Professional)</label>
+            </value>
+            <value>
+                <fullName>Platinum Property Partners Subscription (Enterprise)</fullName>
+                <default>false</default>
+                <label>Platinum Property Partners Subscription (Enterprise)</label>
+            </value>
+            <value>
+                <fullName>Accredited Accountant Subscription (Professional)</fullName>
+                <default>false</default>
+                <label>Accredited Accountant Subscription (Professional)</label>
+            </value>
+            <value>
+                <fullName>Accredited Accountant Subscription (Enterprise)</fullName>
+                <default>false</default>
+                <label>Accredited Accountant Subscription (Enterprise)</label>
+            </value>
+            <value>
+                <fullName>Sales Module</fullName>
+                <default>false</default>
+                <label>Sales Module</label>
+            </value>
+            <value>
+                <fullName>Arthur Live Bank Feed Subscription</fullName>
+                <default>false</default>
+                <label>Arthur Live Bank Feed Subscription</label>
+            </value>
+            <value>
+                <fullName>Xero Subscription (Arthur Standard Subscription)</fullName>
+                <default>false</default>
+                <label>Xero Subscription (Arthur Standard Subscription)</label>
+            </value>
+            <value>
+                <fullName>Xero Subscription (Arthur Professional Subscription)</fullName>
+                <default>false</default>
+                <label>Xero Subscription (Arthur Professional Subscription)</label>
+            </value>
+            <value>
+                <fullName>Xero Subscription (Arthur Enterprise Subscription)</fullName>
+                <default>false</default>
+                <label>Xero Subscription (Arthur Enterprise Subscription)</label>
+            </value>
+            <value>
+                <fullName>Zoopla Connection</fullName>
+                <default>false</default>
+                <label>Zoopla Connection</label>
+            </value>
+            <value>
+                <fullName>RightMove Connection</fullName>
+                <default>false</default>
+                <label>RightMove Connection</label>
+            </value>
+            <value>
+                <fullName>StuRents Connection</fullName>
+                <default>false</default>
+                <label>StuRents Connection</label>
+            </value>
+            <value>
+                <fullName>OnTheMarket Connection</fullName>
+                <default>false</default>
+                <label>OnTheMarket Connection</label>
+            </value>
+            <value>
+                <fullName>PropertyPal Connection</fullName>
+                <default>false</default>
+                <label>PropertyPal Connection</label>
+            </value>
+            <value>
+                <fullName>Boomin Connection</fullName>
+                <default>false</default>
+                <label>Boomin Connection</label>
+            </value>
+            <value>
+                <fullName>Customer RMv3 Connection</fullName>
+                <default>false</default>
+                <label>Customer RMv3 Connection</label>
+            </value>
+            <value>
+                <fullName>ArthurPay (Rent Collection and Reconcilliation)</fullName>
+                <default>false</default>
+                <label>ArthurPay (Rent Collection and Reconcilliation)</label>
+            </value>
+            <value>
+                <fullName>ArthurPay (For Letting Agents)</fullName>
+                <default>false</default>
+                <label>ArthurPay (For Letting Agents)</label>
+            </value>
+            <value>
+                <fullName>Fixflo Integration</fullName>
+                <default>false</default>
+                <label>Fixflo Integration</label>
+            </value>
+            <value>
+                <fullName>SMS Credits (20)</fullName>
+                <default>false</default>
+                <label>SMS Credits (20)</label>
+            </value>
+            <value>
+                <fullName>SMS Credits (50)</fullName>
+                <default>false</default>
+                <label>SMS Credits (50)</label>
+            </value>
+            <value>
+                <fullName>SMS Credits (250)</fullName>
+                <default>false</default>
+                <label>SMS Credits (250)</label>
+            </value>
+            <value>
+                <fullName>SMS Credits (500)</fullName>
+                <default>false</default>
+                <label>SMS Credits (500)</label>
+            </value>
+            <value>
+                <fullName>SMS Credits (1,000)</fullName>
+                <default>false</default>
+                <label>SMS Credits (1,000)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (1)</fullName>
+                <default>false</default>
+                <label>Credit Checks (1)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (5)</fullName>
+                <default>false</default>
+                <label>Credit Checks (5)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks 101)</fullName>
+                <default>false</default>
+                <label>Credit Checks 101)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (25)</fullName>
+                <default>false</default>
+                <label>Credit Checks (25)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (50)</fullName>
+                <default>false</default>
+                <label>Credit Checks (50)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (100)</fullName>
+                <default>false</default>
+                <label>Credit Checks (100)</label>
+            </value>
+            <value>
+                <fullName>Credit Checks (250)</fullName>
+                <default>false</default>
+                <label>Credit Checks (250)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (1)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (1)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (10)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (10)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (50)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (50)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (100)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (100)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (200)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (200)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (400)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (400)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (500)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (500)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (1000)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (1000)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (1500)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (1500)</label>
+            </value>
+            <value>
+                <fullName>Digital Signature Credits (2000)</fullName>
+                <default>false</default>
+                <label>Digital Signature Credits (2000)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (1)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (1)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (5)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (5)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (10)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (10)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (25)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (25)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (50)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (50)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (100)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (100)</label>
+            </value>
+            <value>
+                <fullName>Homeppl Reference Check Credits (250)</fullName>
+                <default>false</default>
+                <label>Homeppl Reference Check Credits (250)</label>
+            </value>
+            <value>
+                <fullName>Data Import (0-50 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (0-50 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (51-100 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (51-100 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (101-300 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (101-300 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (301-500 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (301-500 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (501 - 750 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (501 - 750 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (751-1500 Units)</fullName>
+                <default>false</default>
+                <label>Data Import (751-1500 Units)</label>
+            </value>
+            <value>
+                <fullName>Data Import (Bespoke)</fullName>
+                <default>false</default>
+                <label>Data Import (Bespoke)</label>
+            </value>
+            <value>
+                <fullName>Xero Setup and Integration (Basic)</fullName>
+                <default>false</default>
+                <label>Xero Setup and Integration (Basic)</label>
+            </value>
+            <value>
+                <fullName>Xero Setup and Integration (Plus)</fullName>
+                <default>false</default>
+                <label>Xero Setup and Integration (Plus)</label>
+            </value>
+            <value>
+                <fullName>Xero Setup and Integration (Complete)</fullName>
+                <default>false</default>
+                <label>Xero Setup and Integration (Complete)</label>
+            </value>
+            <value>
+                <fullName>New Xero Account Integration (Basic)</fullName>
+                <default>false</default>
+                <label>New Xero Account Integration (Basic)</label>
+            </value>
+            <value>
+                <fullName>New Xero Account Integration (Plus)</fullName>
+                <default>false</default>
+                <label>New Xero Account Integration (Plus)</label>
+            </value>
+            <value>
+                <fullName>New Xero Account Integration (Complete)</fullName>
+                <default>false</default>
+                <label>New Xero Account Integration (Complete)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Basic) (0-100 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Basic) (0-100 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Plus) (0-100 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Plus) (0-100 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Complete) (0-100 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Complete) (0-100 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Basic) (101-300 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Basic) (101-300 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Plus) (101-300 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Plus) (101-300 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Complete) (101-300 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Complete) (101-300 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Basic) (301-750 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Basic) (301-750 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Plus) (301-750 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Plus) (301-750 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Complete) (301-750 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Complete) (301-750 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Basic) (751-1000 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Basic) (751-1000 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Plus) (751-1000 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Plus) (751-1000 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Complete) (751-1000 units)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Complete) (751-1000 units)</label>
+            </value>
+            <value>
+                <fullName>Existing Xero Account Integration (Bespoke)</fullName>
+                <default>false</default>
+                <label>Existing Xero Account Integration (Bespoke)</label>
+            </value>
+            <value>
+                <fullName>Live Bank Feed Integration (Basic)</fullName>
+                <default>false</default>
+                <label>Live Bank Feed Integration (Basic)</label>
+            </value>
+            <value>
+                <fullName>Live Bank Feed Integration (Plus)</fullName>
+                <default>false</default>
+                <label>Live Bank Feed Integration (Plus)</label>
+            </value>
+            <value>
+                <fullName>Live Bank Feed Integration (Complete)</fullName>
+                <default>false</default>
+                <label>Live Bank Feed Integration (Complete)</label>
+            </value>
+            <value>
+                <fullName>Onsite Setup Support Day</fullName>
+                <default>false</default>
+                <label>Onsite Setup Support Day</label>
+            </value>
+            <value>
+                <fullName>Online Setup Support Package (1 month)</fullName>
+                <default>false</default>
+                <label>Online Setup Support Package (1 month)</label>
+            </value>
+            <value>
+                <fullName>Online Setup Support Package (3 months)</fullName>
+                <default>false</default>
+                <label>Online Setup Support Package (3 months)</label>
+            </value>
+            <value>
+                <fullName>Online Training (Half Day)</fullName>
+                <default>false</default>
+                <label>Online Training (Half Day)</label>
+            </value>
+            <value>
+                <fullName>Online Training (Fully Day)</fullName>
+                <default>false</default>
+                <label>Online Training (Fully Day)</label>
+            </value>
+            <value>
+                <fullName>Onsite Training (Half Day)</fullName>
+                <default>false</default>
+                <label>Onsite Training (Half Day)</label>
+            </value>
+            <value>
+                <fullName>Onsite Training (Fully Day)</fullName>
+                <default>false</default>
+                <label>Onsite Training (Fully Day)</label>
+            </value>
+            <value>
+                <fullName>Bespoke Automated Processes Setup</fullName>
+                <default>false</default>
+                <label>Bespoke Automated Processes Setup</label>
+            </value>
+            <value>
+                <fullName>Bespoke Application Form Development</fullName>
+                <default>false</default>
+                <label>Bespoke Application Form Development</label>
+            </value>
+            <value>
+                <fullName>Bespoke Statement Development</fullName>
+                <default>false</default>
+                <label>Bespoke Statement Development</label>
+            </value>
+            <value>
+                <fullName>Bespoke Report Development</fullName>
+                <default>false</default>
+                <label>Bespoke Report Development</label>
+            </value>
+            <value>
+                <fullName>Bespoke Mail Merge Template Setup</fullName>
+                <default>false</default>
+                <label>Bespoke Mail Merge Template Setup</label>
+            </value>
+            <value>
+                <fullName>API Integration Support (hourly)</fullName>
+                <default>false</default>
+                <label>API Integration Support (hourly)</label>
+            </value>
+            <value>
+                <fullName>Additional Support and Admin Services (hourly)</fullName>
+                <default>false</default>
+                <label>Additional Support and Admin Services (hourly)</label>
+            </value>
+            <value>
+                <fullName>Arthur Accountant Accreditation Training (per person)</fullName>
+                <default>false</default>
+                <label>Arthur Accountant Accreditation Training (per person)</label>
+            </value>
+            <value>
+                <fullName>Virtual Classroom Training</fullName>
+                <default>false</default>
+                <label>Virtual Classroom Training</label>
+            </value>
+            <value>
+                <fullName>Self-service Training Portal</fullName>
+                <default>false</default>
+                <label>Self-service Training Portal</label>
+            </value>
+            <value>
+                <fullName>Integration Consultancy Services</fullName>
+                <default>false</default>
+                <label>Integration Consultancy Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

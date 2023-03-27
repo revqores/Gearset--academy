@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_Entity_ID_is_populated</fullName>
+    <active>true</active>
+    <description>Entity ID must be populated on Account before Opp can be closed won</description>
+    <errorConditionFormula>AND (
+  ISCHANGED(StageName),
+  ISPICKVAL(StageName , &#39;Close Won&#39;),
+  ISBLANK( Account.Entity_Id__c)
+)</errorConditionFormula>
+    <errorMessage>Please populate the Account Entity ID before moving the Opp to Closed Won</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+        <picklistValues>
+            <masterLabel>ENT(5000-10000)</masterLabel>
+            <translation><!-- ENT(5000-10000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARGE-ENT(10000+)</masterLabel>
+            <translation><!-- LARGE-ENT(10000+) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MID-CAP(1000-5000)</masterLabel>
+            <translation><!-- MID-CAP(1000-5000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMB(&lt;50)</masterLabel>
+            <translation><!-- SMB(&lt;50) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME(50-500)</masterLabel>
+            <translation><!-- SME(50-500) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SME2(500-1000)</masterLabel>
+            <translation><!-- SME2(500-1000) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
